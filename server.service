@@ -1,0 +1,9 @@
+[Unit]
+Description=Energotest server service
+
+[Service]
+ExecStart=/usr/bin/server --docroot .. --http-address 0.0.0.0 --http-port 8080
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
