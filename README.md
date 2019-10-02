@@ -46,7 +46,7 @@ UI client is based on QtQuick.
 ### Dependencies:
 - libjsoncpp
 - libcurl
-- 
+
 ### To build
 Simply use CMake.
 
